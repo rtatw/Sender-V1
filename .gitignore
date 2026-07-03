@@ -1,0 +1,32 @@
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+
+# Logs
+*.log
+*.log.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deploy scripts (may contain passwords)
+deploy_server.py
+
+# Bot specific
+bot_data.db
+secret.key
