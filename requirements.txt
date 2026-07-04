@@ -1,0 +1,19 @@
+aiogram>=3.7.0,<4.0.0
+sqlalchemy[asyncio]>=2.0.30
+aiosqlite>=0.20.0
+asyncpg>=0.29.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+# MED-40: aiosmtplib убран — мы используем smtplib + python-socks
+# (даёт полный контроль над SOCKS5/HTTP прокси).
+# Если в будущем захотите async-SMTP — раскомментируйте:
+# aiosmtplib>=3.0.0
+aiohttp>=3.9.0
+python-dotenv>=1.0.0
+PySocks>=1.7.1
+python-socks[asyncio]>=2.4.0
+dnspython>=2.6.0
+cryptography>=41.0.0
+httpx>=0.27.0
+redis>=5.0.0
+alembic>=1.13.0
